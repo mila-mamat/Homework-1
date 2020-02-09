@@ -1,18 +1,20 @@
 # First Homework
 
-One Paragraph of project description goes here
+For this homework, our task is to refactor an existing webpage to make it cleaner.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I'm not quite sure how others are going to access my repository, so here is the SSH url if needed: 
 
-### Prerequisites
+### Contents
+* index.html
+* assets folder
+  ** css folder
+      *** style.css
+  ** images
+      ***brand-awareness
 
-What things you need to install the software and how to install them
 
-```
-Give examples
-```
 
 ### Installing
 
