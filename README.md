@@ -42,7 +42,8 @@ I'm not quite sure how others are going to access my repository, so here is the 
 I dont know why, the font size of my navigation bar is 20px as the original one, but it visually looks bigger to me. Will double check later.
 
 ## What other changes I would like to make?
-1. 
+1. The width of header,hero img doesnt match up with the rest.Looks weird. Want to add margins to header and hero img.(OCD alert!)
+2. Wanna try my teeth on responsive website design. 
 
 
 
