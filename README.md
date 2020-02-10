@@ -1,88 +1,49 @@
-# Project Title
+# First Homework
 
-One Paragraph of project description goes here
+For this homework, our task is to refactor an existing webpage to make it cleaner.
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I'm not quite sure how others are going to access my repository, so here is the SSH key if needed:  git@github.com:mila-mamat/homework-1.git
 
-### Prerequisites
+### Contents
+* index.html
+* assets folder
+   * CSS folder
+      * style.css
+   * images folder
+      * brand-awareness.png
+      * cost-management.png
+      * digital-marketing-meeting.jpg
+      * lead-generation.png
+      * online-reputation-management.jpg
+      * search-engine-optimization.jpg
+      * social-media-marketing.jpg
+      
+## What are the changes?
+1. Webpage title is changed from website to Horiseo Homepage.
 
-What things you need to install the software and how to install them
+2. Comments are added in both html and css file to give extra tips on structure.
 
-```
-Give examples
-```
+3. changed the tag names from  < div> to  < nav>, < header>,  < main> ( < section>), < aside> and  < footer>
+  * The original  < div> tags, replaced above, used class names like "header","footer" to style in css. Thus the class selectors in CSS is replaced by the element selectors accordingly.
+  
+  
+4. Removed the unnecessary classes in  < main> and  < aside>, like "search-engine-optimization", "benefit-lead",etc. 
+  * Summarized the CSS codes under main section{} and aside div{}
+  * IDs are untouched as navigation bar on top is linked through IDs
+  * original html file didn't add ID to the first section. Fixed. 
+  
+5. Some properties used throughout the webpage, like font color and font family, are summarized on the top under body{}
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
+## What went wrong?
+I dont know why, the font size of my navigation bar is 20px as the original one, but it visually looks bigger to me. Will double check later.
 
-Say what the step will be
+## What other changes I would like to make?
+1. The width of header,hero img doesnt match up with the rest.Looks weird. Want to add margins to header and hero img.(OCD alert!)
+2. Wanna try my teeth on responsive website design. 
 
-```
-Give the example
-```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
