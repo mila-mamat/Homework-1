@@ -45,7 +45,7 @@ I'm not quite sure how others are going to access my repository, so here is the 
 I dont know why, the font size of my navigation bar is 20px as the original one, but it visually looks bigger to me. Will double check later.
 
 ### For responsive design:
-For the screen size smaller than 970, the  < aside> content is stacked under < main>. But I cannot change the margin of it and make its right border in align with the < main>. NEED HELP!!!
+<s>For the screen size smaller than 970, the  < aside> content is stacked under < main>. But I cannot change the margin of it and make its right border in align with the < main>.</s> Done. 
 
 
 
@@ -58,13 +58,16 @@ For the screen size smaller than 970, the  < aside> content is stacked under < m
 
 
 ## New findings
-I was not quite sure about when to use float, when to position. I found their difference when I was trying to reshape the < aside> into the same style with < main> (small screen).
+1. I was not quite sure about when to use float, when to position. I found their difference when I was trying to reshape the < aside> into the same style with < main> (small screen).
 
 For < main>, float can do the work as the workflow of it is < img>, < h2>, < p>. 
 But for < aside>, the workflow is < h3>, < img>, < p>. Can't float the img to the left side of the < h3> and < p>. Position, however, ignores te workflow, and can move around the blocks to anywhere I want. 
 
 My understanding is, flow is easy to use, while position can do complicated designs with detailed measurement. 
 
+
+
+2. When element { width:100% } , any margin would be added up to the width, pushing the element to the side. 
 
 
 
