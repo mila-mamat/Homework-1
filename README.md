@@ -45,7 +45,7 @@ I'm not quite sure how others are going to access my repository, so here is the 
 I dont know why, the font size of my navigation bar is 20px as the original one, but it visually looks bigger to me. Will double check later.
 
 ### For responsive design:
-1. <s>For small screen, the  < aside> content is stacked under < main>, but their border is not in align with each other</s> Done. 
+1. <s>For small screen, the  < aside> content is stacked under < main>, but their border is not in align with each other</s> Fixed. 
   
 2. For small screen, hover dropdown menu is not working properly. 
 
