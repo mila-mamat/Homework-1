@@ -53,8 +53,7 @@ I dont know why, the font size of my navigation bar is 20px as the original one,
 
 ## What other changes I would like to make?
 1. <s>Wanna try my teeth on responsive website design.</s> Done.
-2. For the smallest screen, the naviation bar is just stacked up on the top right corner. Gonna do some research and change the navigation bar to a dropdown list.
-3. Might want to add a comment or email me box on the bottom to see how js works.
+2. Might want to add a comment or email me box on the bottom to see how js works.
 
 
 
