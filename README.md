@@ -3,6 +3,8 @@
 For this homework, our task is to refactor an existing webpage to make it cleaner.
 
 
+
+
 ## Getting Started
 
 I'm not quite sure how others are going to access my repository, so here is the SSH key if needed:  git@github.com:mila-mamat/homework-1.git
@@ -23,6 +25,8 @@ I'm not quite sure how others are going to access my repository, so here is the 
       * search-engine-optimization.jpg
       * social-media-marketing.jpg
       
+      
+      
 ## What are the changes made in Homework?
 1. Webpage **title** is changed from website to Horiseo Homepage.
 
@@ -40,14 +44,6 @@ I'm not quite sure how others are going to access my repository, so here is the 
 5. Some properties used throughout the webpage, like font color and font family, are summarized on the top under body{}
 
 
-## What went wrong?
-### For homework: 
-I dont know why, the font size of my navigation bar is 20px as the original one, but it visually looks bigger to me. Will double check later.
-
-### For responsive design:
-1. <s>For small screen, the  < aside> content is stacked under < main>, but their border is not in align with each other</s> Fixed. 
-  
-2. For small screen, hover dropdown menu is not working properly. 
 
 
 
@@ -57,13 +53,14 @@ I dont know why, the font size of my navigation bar is 20px as the original one,
 
 
 
+
 ## New findings
 1. I was not quite sure about when to use float, when to position. I found their difference when I was trying to reshape the < aside> into the same style with < main> (small screen).
 
-For < main>, float can do the work as the workflow of it is < img>, < h2>, < p>. 
-But for < aside>, the workflow is < h3>, < img>, < p>. Can't float the img to the left side of the < h3> and < p>. Position, however, ignores te workflow, and can move around the blocks to anywhere I want. 
+  For < main>, float can do the work as the workflow of it is < img>, < h2>, < p>. 
+  But for < aside>, the workflow is < h3>, < img>, < p>. Can't float the img to the left side of the < h3> and < p>. Position, however, ignores te workflow, and can move around the blocks to anywhere I want. 
 
-My understanding is, flow is easy to use, while position can do complicated designs with detailed measurement. 
+  My understanding is, flow is easy to use, while position can do complicated designs with detailed measurement. 
 
 
 
