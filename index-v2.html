@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- <meta  name="viewport" content=" width = device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="./assets/css/style-v2.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Horiseon Responsive Homepage</title>
 </head>
 
@@ -11,18 +13,37 @@
     <header>   
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- Navigation bar to sections below  -->
-        <nav>  
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
+        <nav > 
+           <div >
+                <ul id="list">
+                    <li>
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    </li>
+                    <li>
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li>
+                        <a href="#social-media-marketing">Social Media Marketing</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <div id="icon" onclick="show()" >
+                    <a><i class='fa fa-bars'></i></a>
+                </div>
+                <ul id="dropdown">
+                    <li>
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    </li>
+                    <li>
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li>
+                        <a href="#social-media-marketing">Social Media Marketing</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -86,6 +107,24 @@
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+
+    
+    <script>
+        var isshown = 0;
+        var nav = document.getElementById("dropdown")
+        console.log(nav)
+        function show(){
+            if(isshown == 1){
+                nav.style.display='None';
+                return isshown = 0;
+
+            }else{
+                nav.style.display='block';
+                return isshown = 1;
+            }
+        }
+      
+    </script>
 
 </body>
 

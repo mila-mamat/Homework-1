@@ -47,11 +47,20 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
+#list li {
     display: inline-block;
     margin-left: 25px;
 }
 
+#dropdown, #icon{
+    display:none;
+}
+
+#dropdown li  {
+    display:block;
+    padding:15px;
+    background-color: cadetblue;
+}
 nav a {
     text-decoration: none;
     color:#ffffff;
@@ -61,8 +70,9 @@ nav a:hover {
     color:#6dc6fd;
 }
 
+
 /* medium screen  */
-@media (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
     nav {
         bottom:0px;
         right:15px;
@@ -73,16 +83,27 @@ nav a:hover {
     }
 } 
 /* small screen  */
-@media (max-width: 970px){
-    nav ul {
-        list-style-type: none;
+@media screen and (max-width: 970px){
+  
+    nav {
+        position:absolute;
+        top:70px;
+        width:260px;
     }
     
-    nav ul li {
-        display: block;
-        margin: 10px 25px ;
-        
+    nav #list{
+        display:none;
+
     }
+
+    nav #icon {
+        font-size:20px;
+        display:block;
+        position:absolute;
+        top:0px;
+        right:10px;
+    }
+
 }
 
 
@@ -128,7 +149,7 @@ main h2 {
 }
 
 /* main content:medium secreen  */
-@media (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
     main section  {
         padding: 20px 20px;
         height: 250px;
@@ -144,7 +165,7 @@ main h2 {
 }
 
 /* main content:  small screen  */
-    @media (max-width: 970px) {
+@media screen and (max-width: 970px) {
     main {
         width: 100%;
         margin:0px;
@@ -215,10 +236,11 @@ aside img {
     max-width: 150px;
 }
 
-@media (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
     aside div {
         margin-bottom: 20px;
     }
+    
     
     aside img {
         display: block;
@@ -227,17 +249,20 @@ aside img {
         width:80px;
     }
 }
-@media (max-width: 970px) {
+@media screen and (max-width: 970px) {
+
     aside {
         width:100%;
         float: none;
-        margin:20px;
+        background-color: #d9dcd6;
     }
     
     aside div {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+        padding:10px;
         position:relative;
         height:100px;
+        background-color: #2589bd;
     }
     
     aside h3 {
