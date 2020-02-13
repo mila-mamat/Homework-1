@@ -23,16 +23,16 @@ I'm not quite sure how others are going to access my repository, so here is the 
       * search-engine-optimization.jpg
       * social-media-marketing.jpg
       
-## What are the changes?
-1. Webpage title is changed from website to Horiseo Homepage.
+## What are the changes made in Homework?
+1. Webpage **title** is changed from website to Horiseo Homepage.
 
-2. Comments are added in both html and css file to give extra tips on structure.
+2. **Comments** are added in both html and css file to give extra tips on structure.
 
-3. changed the tag names from  < div> to  < nav>, < header>,  < main> ( < section>), < aside> and  < footer>
+3. changed the **tag names** from  < div> to  < nav>, < header>,  < main> ( < section>), < aside> and  < footer>
     * The original  < div> tags, replaced above, used class names like "header","footer" to style in css. Thus the class selectors in CSS is replaced by the element selectors accordingly.
   
   
-4. Removed the unnecessary classes in  < main> and  < aside>, like "search-engine-optimization", "benefit-lead",etc. 
+4. Removed the **unnecessary classes** in  < main> and  < aside>, like "search-engine-optimization", "benefit-lead",etc. 
     * Summarized the CSS codes under main section{} and aside div{}
     * IDs are untouched as navigation bar on top is linked through IDs
     * original html file didn't add ID to the first section. Fixed. 
@@ -52,10 +52,9 @@ I dont know why, the font size of my navigation bar is 20px as the original one,
 
 
 ## What other changes I would like to make?
-1. <s>The width of header,hero img doesnt match up with the rest. Looks weird. Want to add margins to header and hero img.</s> Done.
-2. <s>Wanna try my teeth on responsive website design.</s> Done.
-3. For the smallest screen, the naviation bar is stacked up on the top right corner, and when the screen is small enough, navigation bar would overlap with the logo. Gonna do some research and change the navigation bar to a dropdown list.
-4. Might want to add a comment or email me box on the bottom to see how js works.
+1. <s>Wanna try my teeth on responsive website design.</s> Done.
+2. For the smallest screen, the naviation bar is just stacked up on the top right corner. Gonna do some research and change the navigation bar to a dropdown list.
+3. Might want to add a comment or email me box on the bottom to see how js works.
 
 
 
