@@ -50,6 +50,7 @@ I'm not quite sure how others are going to access my repository, so here is the 
 ## What other changes I would like to make?
 1. <s>Wanna try my teeth on responsive website design.</s> Done.
 2. Might want to add a comment or email me box on the bottom to see how js works.
+3. The current style-v2 is too messy. Try rewrite it using Bootstrap.
 
 
 
