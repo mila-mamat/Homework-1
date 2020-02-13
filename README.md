@@ -10,8 +10,8 @@ For this homework, our task is to refactor an existing webpage to make it cleane
 I'm not quite sure how others are going to access my repository, so here is the SSH key if needed:  git@github.com:mila-mamat/homework-1.git
 
 ### Contents
-* index.html (html required for homework)
-* index-v2.html (html for responsive design)
+* **index.html (html required for homework)**
+* **index-v2.html (html for responsive design)**
 * assets folder
    * CSS folder
       * style.css (css required for homework)
@@ -64,7 +64,7 @@ I'm not quite sure how others are going to access my repository, so here is the 
 
 
 
-2. When element { width:100% } , any margin would be added up to the width, pushing the element to the side. 
+2. When element { width:100% } , any margin would be added on top of the width, pushing the element to the side. 
 
 
 
