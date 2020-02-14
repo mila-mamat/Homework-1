@@ -52,8 +52,8 @@ For this homework, our task is to refactor an existing webpage to make it cleane
 
 
 
-## New findings
-1. I was not quite sure about when to use float, when to position. I found their difference when I was trying to reshape the < aside> into the same style with < main> (small screen).
+## Thoughts
+1. I was not quite sure about when to use float, when to position. I found their difference when I was trying to reshape the < aside> into the same style with < main> ( in small screen).
 
   For < main>, float can do the work as the workflow of it is < img>, < h2>, < p>. 
   But for < aside>, the workflow is < h3>, < img>, < p>. Can't float the img to the left side of the < h3> and < p>. Position, however, ignores te workflow, and can move around the blocks to anywhere I want. 
