@@ -46,7 +46,7 @@ For this homework, our task is to refactor an existing webpage to make it cleane
 
 ## What other changes I would like to make?
 1. <s>Wanna try my teeth on responsive website design.</s> Done.
-2. Might want to add a comment or email me box on the bottom to see how js works.
+2. Might want to add a comment or email me box on the bottom to see how Bootstrap works.
 3. The current style-v2 is too messy. Try rewrite it using Bootstrap.
 
 
